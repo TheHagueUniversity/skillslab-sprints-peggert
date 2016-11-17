@@ -6,10 +6,10 @@
 <meta name="description" content="A layout example that shows off a responsive product landing page.">
 
     <title>Peggert's Blog</title>
-    
+
 <!--Main style sheet-->
 <link rel="stylesheet" href="../css/marketing.css">
-  
+
 <!--Extra style Sheet-->
 <link href="../css/grid.css" rel="stylesheet" type="text/css">
 
@@ -19,9 +19,15 @@
 
 
 <div class="header">
+  <!-- REVIEW
+    this isn't semantic HTML, you should use lay-out elements like <header>, <footer>, <nav>, <aside>, etc. instead of <div>
+-->
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
         <a class="pure-menu-heading" href="">Peggert's Blog</a>
-
+        <!-- REVIEW
+        If this is your website name, why aren't you using a header
+        Your classnames should be semantic too, describe what's their function instead of the module you're using
+        -->
         <ul class="pure-menu-list">
             <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
             <li class="pure-menu-item"><a href="#" class="pure-menu-link">Categories</a></li>
@@ -31,6 +37,10 @@
     </div>
 </div>
 
+<!-- REVIEW
+This looks like you downloaded a out-of-the-box html template and you are filling it with content. This isn't the purpose of this course and won't be graded as such.
+You should be able to understand and write the html/css for yourself
+-->
 <div class="splash-container">
     <div class="splash">
         <h1 class="splash-head">Peggert</h1>
@@ -47,7 +57,7 @@
     <div class="content">
         <h2 class="content-head is-center">Categories</h2>
      <P> ADDDDDDDD TEEEEEEXTT AND CONTENT
-     
+
     <div class="ribbon l-box-lrg pure-g">
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
             <img class="pure-img-responsive" alt="File Icons" width="300" src="../img/common/file-icons.png">
